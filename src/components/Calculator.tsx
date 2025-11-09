@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Display from './Display';
 import Button from './Button';
-import { calculate, formatDisplay, Operator } from '../utils/calculator';
+import { calculate, formatDisplay, type Operator } from '../utils/calculator';
 import './Calculator.css';
 
 const Calculator = () => {
